@@ -1,0 +1,19 @@
+{
+  "name": "aws-cdk-sample",
+  "version": "1.0.0",
+  "main": "build/js/index.js",
+  "repository": "https://ryparker@github.com/ryparker/aws-cdk-sample.git",
+  "author": "Ryan Parker <ryan.parker3@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && cdk synth",
+    "deploy": "cdk deploy"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^1.123.0",
+    "aws-cdk": "^1.123.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
